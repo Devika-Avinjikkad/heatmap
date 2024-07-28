@@ -1,0 +1,16 @@
+.heatmap {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .week {
+    display: flex;
+  }
+  
+  .day {
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    border-radius: 2px;
+  }
+  

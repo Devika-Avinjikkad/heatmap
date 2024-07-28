@@ -1,0 +1,7 @@
+<div class="heatmap">
+    <div class="week" *ngFor="let week of heatmapData">
+      <div class="day" *ngFor="let day of week" [ngStyle]="{'background-color': getColor(day)}">
+      </div>
+    </div>
+  </div>
+  
